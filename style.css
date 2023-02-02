@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 900px;
+    margin: auto;
+    text-align: center;
+}
+.header {
+    box-sizing: border-box;
+    background-color:rgb(223, 223, 30);
+    width: 100%;
+    height: 250px;
+}
+
+.menu {
+    box-sizing: border-box;
+    background-color: red;
+    height: 70px;
+    width: 100%px;
+}
+.sidebar {
+    box-sizing: border-box;
+    background-color: sienna;
+    height: 600px;
+    width: 30%;
+    float: left;
+}
+.main {
+    box-sizing: border-box;
+    background-color:blue;
+    height: 600px;
+    width: 70%;
+    float: right;
+}
+.footer {
+    box-sizing: border-box;
+    background-color:green;
+    width: 900px;
+    height: 100px;
+}
+.clear {
+    clear: both;
+}
